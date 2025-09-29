@@ -73,7 +73,7 @@ window.addEventListener("load", function () {
 
     var instructions = stage.insert(new Q.UI.Text({
       x: 400, y: 220,
-      label: "איך לשחק:",
+      label: ":איך לשחק",
       color: "#FFFF00",
       size: 24,
       align: "center"
