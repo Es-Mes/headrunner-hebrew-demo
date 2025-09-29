@@ -1,7 +1,7 @@
 # Headrunner - Hebrew Translation Demo
 ## משחק ראש רץ - גרסה מתורגמת לעברית
 
-### 🎮 [**Play the Hebrew Version Here!**](https://[your-username].github.io/headrunner-hebrew-demo/game.html)
+### 🎮 [**Play the Hebrew Version Here!**](https://es-mes.github.io/headrunner-hebrew-demo/game.html)
 
 ---
 
