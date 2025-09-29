@@ -1,8 +1,15 @@
 /* עיצוב RTL לעברית */
+@charset "UTF-8";
+
 body {
     direction: rtl;
     text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+}
+
+/* תמיכה בעברית */
+* {
+    font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
 }
 
 /* עיצוב עבור טקסטים במשחק */

@@ -159,7 +159,7 @@ Quintus["Popups"] = function (Q) {
     var permit = "name" in Q.stages[0].lists.Player[0].p.items &&
       Q.stages[0].lists.Player[0].p.items["name"] == "banana"
     if (permit) {
-      text = "בננה!!! בוא בבקשה"
+      text = "בננה!!! בואי בבקשה"
     }
     else {
       text = "אררר!!! לך מכאן!"

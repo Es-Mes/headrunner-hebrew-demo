@@ -54,11 +54,71 @@ window.addEventListener("load", function () {
   Q.scene('startScreen', function (stage) {
     stage.insert(new Q.Repeater({ asset: "screen.png", speedX: 0, speedY: 0 }));
 
+    // רקע למסך הוראות
+    var background = stage.insert(new Q.UI.Container({
+      x: 400, y: 300,
+      w: 600, h: 400,
+      fill: "rgba(0, 0, 0, 0.8)",
+      border: 3,
+      stroke: "#FFFFFF"
+    }));
+
+    var title = stage.insert(new Q.UI.Text({
+      x: 400, y: 150,
+      label: "משחק ראש רץ",
+      color: "#FFFFFF",
+      size: 32,
+      align: "center"
+    }));
+
+    var instructions = stage.insert(new Q.UI.Text({
+      x: 400, y: 220,
+      label: "איך לשחק:",
+      color: "#FFFF00",
+      size: 24,
+      align: "center"
+    }));
+
+    var inst1 = stage.insert(new Q.UI.Text({
+      x: 400, y: 260,
+      label: "תנועה - חצים ימין/שמאל •",
+      color: "#FFFFFF",
+      size: 18,
+      align: "center"
+    }));
+
+    var inst2 = stage.insert(new Q.UI.Text({
+      x: 400, y: 290,
+      label: "X קפיצה - חץ עליון או •",
+      color: "#FFFFFF",
+      size: 18,
+      align: "center"
+    }));
+
+    var inst3 = stage.insert(new Q.UI.Text({
+      x: 400, y: 320,
+      label: "אסוף 3 גבישים והגע לדלת •",
+      color: "#00FF00",
+      size: 18,
+      align: "center"
+    }));
+
+    var inst4 = stage.insert(new Q.UI.Text({
+      x: 400, y: 350,
+      label: "הימנע מאויבים ופתור חידות •",
+      color: "#FF6666",
+      size: 18,
+      align: "center"
+    }));
+
     var button = stage.insert(new Q.UI.Button({
-      x: 200,
-      y: 200,
+      x: 400,
+      y: 420,
       label: "התחל משחק",
-      fill: "#CCCCCC"
+      fill: "#4CAF50",
+      fontColor: "#FFFFFF",
+      border: 2,
+      stroke: "#FFFFFF"
     }));
     button.on("click", function () {
       Q.stageScene("level1");

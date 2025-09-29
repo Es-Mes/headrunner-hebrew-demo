@@ -7,7 +7,7 @@ Quintus["Enemies"] = function (Q) {
       this.add('2d, aiBounce');
       this.on("bump.left,bump.right,bump.bottom,bump.top", function (collision) {
         if (collision.obj.isA("Player")) {
-          Q.stageScene("endGame", 1, { label: "משחק נגמר" });
+          Q.stageScene("endGame", 1, { label: "משחק הסתיים" });
           collision.obj.destroy();
         }
       });
