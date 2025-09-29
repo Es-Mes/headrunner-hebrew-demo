@@ -1,0 +1,26 @@
+/* עיצוב RTL לעברית */
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* עיצוב עבור טקסטים במשחק */
+.quintus-text {
+    direction: rtl;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* עיצוב עבור כפתורים */
+.quintus-button {
+    direction: rtl;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* עיצוב כללי למשחק */
+canvas {
+    direction: ltr;
+    /* המשחק עצמו נשאר LTR */
+}
